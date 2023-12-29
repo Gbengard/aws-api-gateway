@@ -1,4 +1,4 @@
-# AWS API Gateway Configuration with Lambda, Mock, and SNS Integration
+# AWS API Gateway Configuration with Lambda and SNS Integration
 
 ## Overview
 
