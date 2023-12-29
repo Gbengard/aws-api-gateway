@@ -363,7 +363,7 @@ Utilize Postman, a powerful API testing tool:
 
 Whichever method you choose, expect to receive an SNS email containing the specified message.
 
-![Untitled](images/Untitled35.jpg)
+![Untitled](images/Untitled35.png)
 
 By rigorously testing each aspect of the API, you ensure its reliability and functionality across various scenarios.
 
