@@ -42,7 +42,7 @@ Please note that the configuration is tailored for the us-east-1 region. Adjust 
 
 10. Confirm that your subscription is in the Confirmed state, as depicted in the following image:
 
-   ![Untitled](images/Untitled.png)
+   ![Untitled](images/Untitled.jpg)
 
 ## Stage 2: Lambda Creation
 
@@ -124,7 +124,7 @@ To establish the API for your project, follow these steps using the AWS Manageme
 
 12. Go to "Integration Response" and click on it.
 
-    ![Untitled](images/Untitled8.png)
+    ![Untitled](images/Untitled8.jpg)
 	
 13. Click on "Edit"
 
@@ -169,7 +169,7 @@ To establish the API for your project, follow these steps using the AWS Manageme
 
     Leave all other options unchanged and click <kbd>Create Method</kbd>.
 
-    ![Untitled](images/Untitled13.png)
+    ![Untitled](images/Untitled13.jpg)
 
 23. A popup will appear, informing you that you are granting API Gateway permission to invoke your Lambda function. Click <kbd>OK</kbd> to proceed.
 
@@ -220,7 +220,7 @@ To establish the API for your project, follow these steps using the AWS Manageme
 
     l. On the summary page, copy the ARN of the role you just created; you'll need it for the next step.
 
-    ![Untitled](images/Untitled18.png)
+    ![Untitled](images/Untitled18.jpg)
 
 24. Return to the API Gateway console: [API Gateway Console](https://us-east-1.console.aws.amazon.com/apigateway/main/apis?region=us-east-1).
 
@@ -286,7 +286,7 @@ To establish the API for your project, follow these steps using the AWS Manageme
 
     a. Click on <kbd>Deploy API</kbd> at the right corner.
 
-    ![Untitled](images/Untitled23.png)
+    ![Untitled](images/Untitled23.jpg)
 
     b. In the pop-up window, set the "Deployment stage" to "[New Stage]" and the "Stage name" to "v1."
 
@@ -363,7 +363,7 @@ Utilize Postman, a powerful API testing tool:
 
 Whichever method you choose, expect to receive an SNS email containing the specified message.
 
-![Untitled](images/Untitled35.png)
+![Untitled](images/Untitled35.jpg)
 
 By rigorously testing each aspect of the API, you ensure its reliability and functionality across various scenarios.
 
@@ -389,13 +389,13 @@ Visit the SNS console [here](https://us-east-1.console.aws.amazon.com/sns/v3/hom
 3. Click on <kbd>Delete</kbd>.
 4. In the confirmation box, input "delete me" and click <kbd>Delete</kbd>.
 
-![Untitled](images/Untitled29.png)
+![Untitled](images/Untitled29.jpg)
 
 5. Go to *Subscriptions*.
 6. Select the Subscription related to your email.
 7. Click on <kbd>Delete</kbd>.
 
-![Untitled](images/Untitled30.png)
+![Untitled](images/Untitled30.jpg)
 
 ### 3. IAM Cleanup:
 
